@@ -39,7 +39,7 @@ module.exports = function(app){
                 
                 return 0
             })
-            res.send(result.slice(0,20))
+            res.send(result.slice(0,10))
         })
         .catch(err=>{
             res.send(err)
